@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Seagull Restaurant - Home</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background: linear-gradient(to bottom right, #FF0000, #FF7F00, #FFFF00, #00FF00, #0000FF, #8B00FF);
+      background-size: 600% 600%;
+      animation: rainbow 18s ease infinite;
+    }
+    
+    h1 {
+      color: #333;
+    }
+    
+    .button {
+      display: inline-block;
+      background-color: #00FF00;
+      color: #fff;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+      margin-right: 10px;
+    }
+    
+    .button:hover {
+      background-color: #008000;
+    }
+
+    .section {
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+    }
+
+    @keyframes rainbow {
+      0%{background-position:0% 82%}
+      50%{background-position:100% 19%}
+      100%{background-position:0% 82%}
+    }
+  </style>
+</head>
+<body>
+  <h1>Seagull Restaurant - Home</h1>
+  
+  <div class="section">
+    <p>Seagull Restaurant offers delicious seafood in a cozy and friendly atmosphere. Come and enjoy our fresh catches and delightful dishes!</p>
+  </div>
+  
+  <div class="section">
+    <h2>Our Menu</h2>
+    <p>We offer a variety of seafood options, including:</p>
+    <ul>
+      <li>Fish and Chips</li>
+      <li>Grilled Shrimp</li>
+      <li>Crab Cakes</li>
+      <li>Lobster Bisque</li>
+      <li>Clam Chowder</li>
+    </ul>
+  </div>
+  
+  <div class="section">
+    <h2>Contact Information</h2>
+    <p>If you have any questions or would like to make a reservation, please feel free to contact us:</p>
+    <ul>
+      <li>Phone: 123-456-7890</li>
+      <li>Email: info@seagullrestaurant.com</li>
+      <li>Address: 123 Ocean Avenue, Beach City</li>
+    </ul>
+  </div>
+  
+  <button onclick="location.href='menu.html'" class="button">View Menu</button>
+  <button onclick="location.href='contact.html'" class="button">Contact Us</button>
+</body>
+</html>
